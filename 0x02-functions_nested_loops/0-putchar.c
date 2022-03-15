@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * main - Prints _putchar as a message.
- *
+ * main -  prints Holberton, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	int str[] = {95, 112, 117, 116, 99, 72, 97, 114};
-	int count, sz;
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
+{
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
+
 	return (0);
+}

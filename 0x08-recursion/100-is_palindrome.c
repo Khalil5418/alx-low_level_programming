@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <stdio.h>
 
 int check_if_is_palindrome(char *s, int i, int len);
 int pal_strlen(char *s);
